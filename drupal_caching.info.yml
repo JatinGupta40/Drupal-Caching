@@ -1,6 +1,6 @@
-name: 'Drupal Caching Custom Block and Custom caching context.'
+name: 'Drupal Custom caching context.'
 type: module
-description: 'A module to implement drupal caching - cache invalidated automatically when any of the article got updated. AND module to implement drupal custom cache context based on taxonomy - category'
+description: 'A module to implement drupal custom cache context based on taxonomy - category'
 core_version_requirement: ^10 || ^11
 package: Custom
 dependencies:

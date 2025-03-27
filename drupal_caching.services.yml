@@ -1,0 +1,6 @@
+services:
+  cache_context.preferred_category:
+    class: Drupal\drupal_caching\Cache\CacheContext
+    arguments: ['@current_user']
+    tags:
+      - { name: cache.context, context_id: 'preferred_category' }
