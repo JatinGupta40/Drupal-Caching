@@ -1,4 +1,4 @@
-name: 'Drupal Caching Custom Block and Custom caching context.'
+name: 'Drupal Caching Custom Block, Custom caching context and Memcacha, Purge.'
 type: module
 description: 'A module to implement drupal caching - cache invalidated automatically when any of the article got updated. AND module to implement drupal custom cache context based on taxonomy - category'
 core_version_requirement: ^10 || ^11
